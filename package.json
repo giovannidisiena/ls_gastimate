@@ -1,0 +1,26 @@
+{
+  "name": "ls_gastimate",
+  "version": "1.0.0",
+  "description": "A script to estimate the gas used in common Linkswap contract calls",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovannidisiena/ls_gastimate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giovannidisiena/ls_gastimate/issues"
+  },
+  "homepage": "https://github.com/giovannidisiena/ls_gastimate#readme",
+  "dependencies": {
+    "big-number": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1",
+    "web3": "^1.3.4"
+  }
+}
